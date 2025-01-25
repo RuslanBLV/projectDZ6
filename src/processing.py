@@ -11,7 +11,7 @@ def filter_by_state(stats):
 {canceled}""")
 
 def sort_by_date(data: str, reverse: bool=True) -> list:
-    """Сортировка даты по убыванию"""
+    """ Сортировка даты по убыванию """
     return sorted(data, key= lambda x: x["date"], reverse=reverse)
 
 
