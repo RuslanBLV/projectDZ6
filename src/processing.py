@@ -1,5 +1,5 @@
 def filter_by_state(stats):
-    """ Сортировка по ключу "state": "EXECUTED" или "CANCELED" """
+    """ Сортировка по ключу "state": "EXECUTED" или "CANCELED"   """
     executed = []
     canceled = []
     for stat in stats:
