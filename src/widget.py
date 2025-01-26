@@ -1,4 +1,4 @@
-def mask_account_card(account_number):
+def mask_account_card(account_number: str) -> str:
     """Маскировка номера или счета"""
     numbers = ""
     letters = ""
@@ -15,7 +15,7 @@ def mask_account_card(account_number):
     return letters + mask_numbers
 
 
-def get_date(data):
+def get_date(data: str) -> str:
     """Сортировка даты"""
     new_data = f"{data[8:10]}.{data[5:7]}.{data[0:4]}"
     return new_data
